@@ -24,13 +24,13 @@ function Nav() {
         <div>
           <a
             href=""
-            className="py-2 px-4 rounded-xl mr-3 text-[#000] border border-blue-700 "
+            className="py-2 px-4 rounded-xl mr-4 text-[#000] border border-blue-700 "
           >
             Sign In
           </a>
           <a
             href=""
-            className="py-2 px-4 rounded-2xl text-[#fff] bg-blue-700 border "
+            className="py-2 px-4 rounded-xl text-[#fff] bg-blue-700 border "
           >
             Sign Up
           </a>
