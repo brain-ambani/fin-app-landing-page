@@ -1,7 +1,9 @@
 function FeaturesCard() {
   return (
-    <div className="w-[350px] h-[300px] bg-gray-600 rounded-xl flex flex-col items-center  text-center m-4 ">
-      <h1 className="font-bold text-xl my-4">Dashboard Overview</h1>
+    <div className="w-[350px] h-[300px] bg-gray-300 shadow-md rounded-xl flex flex-col items-center  text-center m-4 ">
+      <h1 className="font-bold text-xl my-4 text-blue-400">
+        Dashboard Overview
+      </h1>
       <p className="p-4">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
         assumenda aliquid molestias illo modi, quia esse sunt quos pariatur
