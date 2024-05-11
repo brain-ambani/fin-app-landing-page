@@ -14,15 +14,18 @@ function Features() {
         </span>
       </p>
       <div className="my-8 grid grid-cols-3 gap-4">
-        <FeaturesCard />
-        <FeaturesCard />
-        <FeaturesCard />
-        <FeaturesCard />
-        <FeaturesCard />
-        <FeaturesCard />
-        <FeaturesCard />
-        <FeaturesCard />
-        <FeaturesCard />
+        <FeaturesCard
+          title={"Dashboard"}
+          description={"This is the description of the first features card"}
+        />
+        <FeaturesCard
+          title="Stats"
+          description={"This is the description of the first features card"}
+        />
+        <FeaturesCard
+          title="Numbers"
+          description={"This is the description of the first features card"}
+        />
       </div>
     </section>
   );
