@@ -1,6 +1,7 @@
+import { FaLinkedin, FaTwitter } from "react-icons/fa";
 function Footer() {
   return (
-    <div className="bg-gray-300 ">
+    <div className="bg-gray-300  pb-16 ">
       <div className="w-3/4 mx-auto pt-16">
         <div className="flex justify-between pb-8">
           <div className="flex flex-col">
@@ -48,15 +49,19 @@ function Footer() {
         </div>
         <div>
           <div className="bg-blue-300 w-full  h-[1px]"></div>
-          <div>
-            <div>
-              <h4>copyright 2024</h4>
+          <div className="flex justify-between pt-6">
+            <div className="flex  gap-4">
+              <h4>&copy; 2024</h4>
               <h4>Privacy</h4>
               <h4>Terms of Use</h4>
             </div>
-            <div>
-              <a href="">twitter</a>
-              <a href="">linkedin</a>
+            <div className="flex gap-3">
+              <a href="#">
+                <FaTwitter className="text-4xl text-blue-500" />
+              </a>
+              <a href="#">
+                <FaLinkedin className="text-3xl  text-blue-700" />
+              </a>
             </div>
           </div>
         </div>
