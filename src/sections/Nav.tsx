@@ -1,7 +1,7 @@
 function Nav() {
   return (
     <nav>
-      <div className="flex justify-between items-center mt-6 w-3/4 mx-auto">
+      <div className="flex justify-between items-center pt-6 w-3/4 mx-auto">
         <div>
           <a href="/" className="text-2xl">
             <h1>Brandwise</h1>
