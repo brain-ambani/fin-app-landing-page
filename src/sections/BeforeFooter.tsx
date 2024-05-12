@@ -1,6 +1,6 @@
 function BeforeFooter() {
   return (
-    <div className="w-3/4 mx-auto ">
+    <div className="w-3/4 mx-auto flex flex-col items-center justify-center ">
       <div className="w-3/4 flex flex-col items-center justify-center m-20">
         <h1 className="text-6xl text-center font-semibold">
           Try <span className="text-blue-700">Brandwise</span> now, it's sleek
